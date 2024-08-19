@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#25318cff 0%, #1a1f24ff 50%, #0d1117ff 100%);
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.navbar-nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2, h3, h4{
+    font-family: "Montserrat", sans-serif;
+}
+#description-area{
+    padding: 100px;
+}
+.icon{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 25px;
+    padding: 30px;
+}
+.icon p.description{
+    margin-top: 10px;
+}
+#apresentacao{
+    margin-bottom: 60px;
+}
+#myphoto{
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 175px;
+}
+.aboutMe{
+
+ text-align: right;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.aboutMe P{
+    font-size: 30px;
+    line-height: 1.5em;
+}
+@media (max-width: 768px){
+    .aboutMe p {
+        text-align: center;
+    }
+}
+
+.fa-solid, .fa-brands, .fa-regular {
+    float: none;
+    color: #25318cff;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+.fa-brands{
+    color: #25318cff;
+}
+#footer h3{
+    text-align: center;
+}
+#rss-feed {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 300px;
+    z-index: 1000;
+  }
+  
+  #rss-feed a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #rss-feed a:hover {
+    background-color: #f1f1f1;
+    text-decoration: underline;
+  }
+  
+
+#carregarNoticias{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+h3{
+    margin-top: 15px;
+    font-size: 30px;   
+}
+.linkNot{
+    text-decoration: none;
+    color: black;
+}
+.content-wrapper{
+    padding-top: 70px;
+}
+
+.highlight{
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #25318cff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+form input, form select{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.fixed-height-image{
+    height: 400px;
+    object-fit: cover;
+}
+.navbar{
+    background-color: #25318cff;
+}
